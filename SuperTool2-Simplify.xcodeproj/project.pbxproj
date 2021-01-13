@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		F43E8DF025AF01F4007C7FAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43E8DEF25AF01F4007C7FAD /* Cocoa.framework */; };
 		F43E8DF325AF01F4007C7FAD /* SuperTool2-Simplify-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = F43E8DF225AF01F4007C7FAD /* SuperTool2-Simplify-Prefix.pch */; };
-		F43E8DF625AF01F4007C7FAD /* GlyphsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43E8DF525AF01F4007C7FAD /* GlyphsCore.framework */; };
 		F43E8DF925AF01F4007C7FAD /* SuperTool2_Simplify.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E8DF825AF01F4007C7FAD /* SuperTool2_Simplify.m */; };
 		F43E8DFC25AF01F4007C7FAD /* SuperTool2_SimplifyDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43E8DFA25AF01F4007C7FAD /* SuperTool2_SimplifyDialog.xib */; };
+		F43E8E1425AF060D007C7FAD /* GlyphsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43E8E0B25AF0235007C7FAD /* GlyphsCore.framework */; };
+		F43E8E1E25AF0E0E007C7FAD /* SuperTool2_SimplifyDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43E8E1D25AF0E0E007C7FAD /* SuperTool2_SimplifyDialog.xib */; };
+		F43E8E2F25AF170B007C7FAD /* SCCurveFitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E8E2B25AF170B007C7FAD /* SCCurveFitter.m */; };
+		F43E8E3025AF170B007C7FAD /* SCCurveFitter+Tangents.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E8E2C25AF170B007C7FAD /* SCCurveFitter+Tangents.m */; };
+		F43E8E3125AF170B007C7FAD /* GSNode+SCNodeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E8E2E25AF170B007C7FAD /* GSNode+SCNodeUtils.m */; };
+		F43E8E3525AF173D007C7FAD /* GSPath+SCPathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F43E8E3425AF173D007C7FAD /* GSPath+SCPathUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,17 @@
 		F43E8DF825AF01F4007C7FAD /* SuperTool2_Simplify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperTool2_Simplify.m; sourceTree = "<group>"; };
 		F43E8DFB25AF01F4007C7FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../en.lproj/SuperTool2_SimplifyDialog.xib; sourceTree = "<group>"; };
 		F43E8DFD25AF01F4007C7FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43E8E0725AF0228007C7FAD /* SCCurveFitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCCurveFitter.h; path = ../../../SCGlyphsLib/SCCurveFitter.h; sourceTree = "<group>"; };
+		F43E8E0B25AF0235007C7FAD /* GlyphsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlyphsCore.framework; path = "../../../../../../Applications/Glyphs 3.app/Contents/Frameworks/GlyphsCore.framework"; sourceTree = "<group>"; };
+		F43E8E1D25AF0E0E007C7FAD /* SuperTool2_SimplifyDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuperTool2_SimplifyDialog.xib; sourceTree = "<group>"; };
+		F43E8E2925AF170B007C7FAD /* GSNode+SCNodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSNode+SCNodeUtils.h"; sourceTree = "<group>"; };
+		F43E8E2A25AF170B007C7FAD /* SCCurveFitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCurveFitter.h; sourceTree = "<group>"; };
+		F43E8E2B25AF170B007C7FAD /* SCCurveFitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCurveFitter.m; sourceTree = "<group>"; };
+		F43E8E2C25AF170B007C7FAD /* SCCurveFitter+Tangents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCCurveFitter+Tangents.m"; sourceTree = "<group>"; };
+		F43E8E2D25AF170B007C7FAD /* SCCurveFitter+Tangents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCCurveFitter+Tangents.h"; sourceTree = "<group>"; };
+		F43E8E2E25AF170B007C7FAD /* GSNode+SCNodeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GSNode+SCNodeUtils.m"; sourceTree = "<group>"; };
+		F43E8E3325AF173D007C7FAD /* GSPath+SCPathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSPath+SCPathUtils.h"; sourceTree = "<group>"; };
+		F43E8E3425AF173D007C7FAD /* GSPath+SCPathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GSPath+SCPathUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43E8DF625AF01F4007C7FAD /* GlyphsCore.framework in Frameworks */,
+				F43E8E1425AF060D007C7FAD /* GlyphsCore.framework in Frameworks */,
 				F43E8DF025AF01F4007C7FAD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +74,7 @@
 		F43E8DEE25AF01F4007C7FAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F43E8E0B25AF0235007C7FAD /* GlyphsCore.framework */,
 				F43E8DEF25AF01F4007C7FAD /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -69,7 +86,17 @@
 				F43E8DF225AF01F4007C7FAD /* SuperTool2-Simplify-Prefix.pch */,
 				F43E8DF725AF01F4007C7FAD /* SuperTool2_Simplify.h */,
 				F43E8DF825AF01F4007C7FAD /* SuperTool2_Simplify.m */,
+				F43E8E1D25AF0E0E007C7FAD /* SuperTool2_SimplifyDialog.xib */,
 				F43E8DFD25AF01F4007C7FAD /* Info.plist */,
+				F43E8E2E25AF170B007C7FAD /* GSNode+SCNodeUtils.m */,
+				F43E8E0725AF0228007C7FAD /* SCCurveFitter.h */,
+				F43E8E2925AF170B007C7FAD /* GSNode+SCNodeUtils.h */,
+				F43E8E3325AF173D007C7FAD /* GSPath+SCPathUtils.h */,
+				F43E8E3425AF173D007C7FAD /* GSPath+SCPathUtils.m */,
+				F43E8E2A25AF170B007C7FAD /* SCCurveFitter.h */,
+				F43E8E2B25AF170B007C7FAD /* SCCurveFitter.m */,
+				F43E8E2D25AF170B007C7FAD /* SCCurveFitter+Tangents.h */,
+				F43E8E2C25AF170B007C7FAD /* SCCurveFitter+Tangents.m */,
 				F43E8DF425AF01F4007C7FAD /* Supporting Files */,
 			);
 			path = "SuperTool2-Simplify";
@@ -140,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43E8E1E25AF0E0E007C7FAD /* SuperTool2_SimplifyDialog.xib in Resources */,
 				F43E8DF325AF01F4007C7FAD /* SuperTool2-Simplify-Prefix.pch in Resources */,
 				F43E8DFC25AF01F4007C7FAD /* SuperTool2_SimplifyDialog.xib in Resources */,
 			);
@@ -152,7 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43E8E3025AF170B007C7FAD /* SCCurveFitter+Tangents.m in Sources */,
+				F43E8E3525AF173D007C7FAD /* GSPath+SCPathUtils.m in Sources */,
 				F43E8DF925AF01F4007C7FAD /* SuperTool2_Simplify.m in Sources */,
+				F43E8E2F25AF170B007C7FAD /* SCCurveFitter.m in Sources */,
+				F43E8E3125AF170B007C7FAD /* GSNode+SCNodeUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +321,7 @@
 				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = GHYRZM4TBD;
 				DSTROOT = "$(USER_LIBRARY_DIR)/Application Support/Glyphs/Plugins";
-				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_APPS_DIR)/Glyphs 3.app/Contents/Frameworks\"";
 				GCC_PREFIX_HEADER = "SuperTool2-Simplify/SuperTool2-Simplify-Prefix.pch";
 				INFOPLIST_FILE = "SuperTool2-Simplify/Info.plist";
 				INSTALL_PATH = /;
@@ -305,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GHYRZM4TBD;
-				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SYSTEM_APPS_DIR)/Glyphs 3.app/Contents/Frameworks\"";
 				GCC_PREFIX_HEADER = "SuperTool2-Simplify/SuperTool2-Simplify-Prefix.pch";
 				INFOPLIST_FILE = "SuperTool2-Simplify/Info.plist";
 				INSTALL_PATH = /;
